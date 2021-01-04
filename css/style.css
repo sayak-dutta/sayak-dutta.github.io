@@ -1,18 +1,18 @@
 body {
-  
   background: url("https://raw.githubusercontent.com/sayak-dutta/sayak-dutta.github.io/main/img/background.png");
-  background-size: cover ;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  margin: 0;
 }
 
-hr {
+/* hr {
   height: 5px;
   width: 60px;
   border-width: 6px;
   border-style: dotted none none;
   border-color: #66fcf1;
-}
+} */
 
 p {
   font-family: "Fira Sans Condensed", sans-serif;
@@ -36,11 +36,11 @@ button {
   border-radius: 13px;
   background: none;
   transition: 0.2s;
-  margin: 0 auto;
   outline: none;
   cursor: pointer;
-  margin: 15px 0;
+  margin-bottom: 30px;
 }
+
 button:active {
   transform: scale(1.1);
 }
@@ -49,6 +49,7 @@ button:active {
   width: 100;
   height: 100px;
   line-height: 50%;
+  margin-top: 6px;
 }
 
 .social-icons {
@@ -96,3 +97,48 @@ ul {
   list-style-type: none;
 }
 
+.spacing-up {
+  margin-top: 48px;
+}
+
+.skill {
+  margin-top: 30px;
+  margin-bottom: 200px;
+}
+
+.skill-logo {
+  margin-top: 100px;
+  margin-right: 40px;
+  float: left;
+  width: 25%;
+  padding-left: 70px;
+}
+.skill-description {
+  padding-top: 180px;
+  padding-right: 80px;
+  color: white;
+  font-family: "raleway", sans-serif;
+  font-size: 35px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.highlight {
+  color: black;
+  background-color: #66fcf1;
+  font-weight: bold;
+}
+
+
+
+
+.footer {
+  font-family: arial;
+  color: black;
+  background-color: #66fcf1;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 10;
+  padding-top: 3;
+
+}
